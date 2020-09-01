@@ -42,7 +42,7 @@ names = {}
 
 
 # Dataset prepration
-for fx in os.listdir(dataset_path):
+for fx in os.listdir(C:/Users/SAI KIRAN/Documents/GitHub/Face_Recog/sai.npy):
 	if fx.endswith('.npy'):
 		names[class_id] = fx[:-4]
 		data_item = np.load(dataset_path + fx)
